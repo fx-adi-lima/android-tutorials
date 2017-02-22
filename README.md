@@ -8,3 +8,6 @@ and build using nothing more than a Makefile, or even a shell script, from insid
 lift-up our spirits as newbies.
 
 Always use simple way to do things, if it helps me understand, I'm sure will help others too.
+
+Oh boy, I guess I was pushing it to the wrong tree :-)
+
