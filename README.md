@@ -9,5 +9,6 @@ lift-up our spirits as newbies.
 
 Always use simple way to do things, if it helps me understand, I'm sure will help others too.
 
-Oh boy, I guess I was pushing it to the wrong tree :-)
+# Finished Step1
+This simple branch should be kept small, so I don't want to add anything else here.
 
