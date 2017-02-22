@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package hu.pe.xaverius2017.tutorials.step1;
+package hu.pe.xaverius2017.tutorials.step2;
 
 public final class R {
     public static final class attr {

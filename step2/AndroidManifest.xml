@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="hu.pe.xaverius2017.tutorials.step1"
+      package="hu.pe.xaverius2017.tutorials.step2"
       android:versionCode="1"
       android:versionName="1.0">
 
@@ -14,9 +14,9 @@
                       android:xlargeScreens="true"/>
 
     <application android:icon="@+drawable/ic_launcher"
-		 android:label="Step1">
-        <activity android:name="hu.pe.xaverius2017.tutorials.step1.Main"
-                  android:label="Step1">
+		 android:label="Step2">
+        <activity android:name="hu.pe.xaverius2017.tutorials.step2.Main"
+                  android:label="Step2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.content.Context;
 import android.widget.TextView;
+import android.widget.LinearLayout;
+import android.widget.LinearLayout.LayoutParams;
+
 
 public class Main extends Activity {
 
@@ -11,16 +14,18 @@ public class Main extends Activity {
 	public void onCreate(Bundle bundle) {
 		super.onCreate(bundle);
 		
-		/* Di sini kita membuat sebuah TextView sebagai layout
-		 * sekedar untuk pemanasan, supaya kita segera mulai tutorial
-		 * ini dengan penuh semangat, baik Anda maupun saya.
-		 *
-		 * Membuat sebuah View di dalam Android selalu membutuhkan minimal satu argumen,
-		 * yaitu 'Context', dalam hal ini kita passing diri sendiri sebagai parameter.
-		 */
-		TextView tv = new TextView(this);
-		tv.setText("Hello World...!");
-		setContentView(tv);
+		LinearLayout ll = new LinearLayout(this);
+		ll.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
+		ll.setOrientation(LinearLayout.VERTICAL);
+		setContentView(ll);
+
+		TextView tv = null;
+		for (int i = 0; i < 25; i++) {
+			tv = new TextView(this);
+			tv.setTextSize(30);
+			tv.setText("TextView nomor " + i + " baru dibuat");
+			ll.addView(tv);
+		}
 	}
 }
 
