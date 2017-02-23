@@ -89,6 +89,10 @@ Make the build script executable using
 ```bash
 chmod +x build.sh
 ```
+Notice the beginning of the script, we're calling /system/bin/sh, and not /bin/sh like usual, it's because
+on android system, the script interpreter executable is located in /system/bin.
+Change the path if you're using a regular Linux distro.
+
 Last, but not least, write your hello world:
 ```java
 package hu.pe.xaverius2017.tutorials.step1;
