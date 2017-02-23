@@ -46,6 +46,6 @@ Sampai di sini aplikasi seharusnya bisa dibuat dengan cara memanggil **build.sh*
      Selengkapnya bisa dilihat dari directory tree branch ini sendiri, Anda bisa mengunduh source tree dalam bentuk zip, atau
      melakukan cloning dari source tree ini selengkapnya.
 
-![Screenshot untuk step2](Step2.png)
+![Screenshot untuk step2](step2.png)
 
 Semoga bermanfaat.
