@@ -51,6 +51,7 @@ Sampai di sini aplikasi seharusnya bisa dibuat dengan cara memanggil **build.sh*
 Tips:
 Project ini bisa Anda gunakan sebagai tempat bereksperimen dengan sebuah **LinearLayout** dan juga sebuah **TextView**, misalnya saja,
 kalau teks yang kita tempatkan di situ sangat panjang (atau Anda memakai font berukuran besar), tanpa menambahkan sedikit kode kita tidak akan melihat teks tersebut ditampilkan dengan baik, yang akan ditampilkan hanya sebatas baris yang didukung.
+Untuk keperluan ini sekarang juga saya akan membuat 2 branch setelah mengupdate commit terhadap halaman ini sendiri, saya rasa branch akan diberi nama eksperimen-dengan-linear-layout.
      Untuk ini kita membutuhkan sebuah **scrollbar**.
      Sebaiknya kita membahas hal ini dalam halaman lain.
            
