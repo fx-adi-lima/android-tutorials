@@ -48,4 +48,10 @@ Sampai di sini aplikasi seharusnya bisa dibuat dengan cara memanggil **build.sh*
 
 ![Screenshot untuk step2](step2.png)
 
-Semoga bermanfaat.
+Tips:
+Project ini bisa Anda gunakan sebagai tempat bereksperimen dengan sebuah **LinearLayout** dan juga sebuah **TextView**, misalnya saja,
+kalau text yang kita tempatkan di situ sangat panjang, tanpa menambahkan sedikit kode kita tidak akan melihat teks tersebut ditampilkan dengan baik, yang akan ditampilkan hanya sebatas baris yang didukung.
+     Untuk ini kita membutuhkan sebuah **scrollbar**.
+     Sebaiknya kita membahas hal ini dalam halaman lain.
+           
+Semoga bermanfaat :-)
