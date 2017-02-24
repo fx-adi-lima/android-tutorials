@@ -1,13 +1,19 @@
-# android-tutorials
-Tutorials for creating android apps from within android-x86
+# Tentang Repository Ini
+Saya rasa saat ini sudah terlalu banyak _tutorial_ mengenai pemrograman aplikasi untuk Android
+yang beredar di internet. 
+Di sini sebenarnya bukan sungguh-sungguh sebuah _tutorial_, tapi lebih mirip tempat untuk menggali ide-ide
+dan bertukar info tentang pemrograman Android, itu pun kalau ada yang mau diajak.
 
-# purpose
-It help me understand android programming better, just hope sharing it here will do the same for others
-Simple hello world program, which has been written completely from scratch, with no XML layout files,
-and build using nothing more than a Makefile, or even a shell script, from inside android itself, I guess will
-lift-up our spirits as newbies.
+Semua _source code_ maupun _release_ (kalau ada) yang ada di sini boleh diunduh, tanpa memerlukan lisensi apapun,
 
-Always use simple way to do things, if it helps me understand, I'm sure will help others too.
+## Bagaimana Menggunakan Tempat Ini
+Tempat ini adalah gudangnya _source code_ untuk program dengan platform apapun, dan sebetulnya bukan hanya untuk 
+menempatkan sebuah project pemrograman, melainkan juga banyak kegunaan lainnya.
+Untuk menggunakannya kita bisa membaca lebih rinci di halaman **Help** yang disediakan oleh GitHub, tetapi untuk
+halaman yang berhubungan dengan _repository_ saya ini, sederhana saja, _branch_ yang bernama **Master** ini saya pakai untuk
+menuliskan ulasan-ulasan mengenai tempat ini dan isinya. Sedangkan _branch-branch lainnya_ berisi kode-kode untuk masing-masing
+tahapan dari sebuah tutorial seperti pada umumnya, juga berisi halaman seperti ini, kalau memang ditulis. Pokoknya semua yang berekstensi .md 
+adalah dokumentasi yang ditulis dengan menggunakan **markdown**, dan kalau kita buka dari dalam GitHub secara otomatis akan ditranslasikan menjadi
+halaman HTML yang siap dibaca.
 
-Oh boy, I guess I was pushing it to the wrong tree :-)
 
