@@ -24,7 +24,10 @@ et.setGravity(Gravity.TOP);
 // setelah ini barulah kita menempatkan WebView, di bagian kanan layar
 ```
 
-Implementasinya akan saya kerjakan sebentar lagi.
+Implementasinya kurang lebih seperti gambar berikut:
+
+![Berdampingan dengan WebView](Screenshot-3.png)
+
 
 :-)
 
