@@ -28,6 +28,9 @@ Implementasinya kurang lebih seperti gambar berikut:
 
 ![Berdampingan dengan WebView](Screenshot_20170224-190902.png)
 
+Saya rasa sekarang saatnya mengupload sebuah _release_ untuk branch ini, supaya Anda maupun saya bisa mengevaluasi
+hasilnya. Karena kita mengijinkan JavaScript melalui WebSettings dengan setJavaScriptEnabled(true), maka sekaligus tombol
+**Button Test** di atas saya buat untuk contoh bahwa JavaScript berfungsi dengan baik dari dalam WebView.
 
-:-)
+
 
