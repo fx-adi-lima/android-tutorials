@@ -26,7 +26,7 @@ et.setGravity(Gravity.TOP);
 
 Implementasinya kurang lebih seperti gambar berikut:
 
-![Berdampingan dengan WebView](Screenshot-3.png)
+![Berdampingan dengan WebView](Screenshot_20170224-190902.png)
 
 
 :-)
