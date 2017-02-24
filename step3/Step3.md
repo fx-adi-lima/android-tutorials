@@ -32,5 +32,10 @@ Saya rasa sekarang saatnya mengupload sebuah _release_ untuk branch ini, supaya 
 hasilnya. Karena kita mengijinkan JavaScript melalui WebSettings dengan setJavaScriptEnabled(true), maka sekaligus tombol
 **Button Test** di atas saya buat untuk contoh bahwa JavaScript berfungsi dengan baik dari dalam WebView.
 
+Aplikasi tersebut, dalam tahap sekarang ini, hanya akan tampil dengan baik kalau kita menggunakan sebuah komputer (atau mungkin sebuah tablet),
+dan kalau ditampilkan oleh sebuah ponsel panel di sebelah kanan tidak akan terlihat.
+
+Hal ini karena desain kita tidak memperhatikan apa yang dinamakan **Responsive Design**.
+
 
 
