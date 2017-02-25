@@ -37,5 +37,12 @@ dan kalau ditampilkan oleh sebuah ponsel panel di sebelah kanan tidak akan terli
 
 Hal ini karena desain kita tidak memperhatikan apa yang dinamakan **Responsive Design**.
 
+Untuk mendukung UI yang lebih fleksibel digunakan dengan perangkat-perangkat yang berbeda, kita sebaiknya menggunakan
+**Fragment**, sebuah skenario baru dari android, tetapi ini belum akan kita bahas di sini sekarang, supaya kita tetap fokus 
+pada penggunaan komponen-komponen dasar android.
+
+Untuk mengetahui lebih jelas mengenai ini, sebaiknya membaca sendiri [situs resmi android!](https://developer.android.com/training/basics/fragments/index.html)
+
+
 
 
