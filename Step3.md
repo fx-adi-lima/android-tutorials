@@ -44,7 +44,6 @@ relatif kecil, tidak ada komponen yang tersembunyi.
 
 Tambahan lagi, sebaiknya kita juga meniadakan nilai-nilai absolut, seperti 500, yang saya gunakan di sini untuk menyederhanakan ilustrasi.
 
-
-
+![WebView di sebelah kiri, dengan nlebar absolut 500 pixel](Screenshot_20170225-083642.png)
 
 
