@@ -37,5 +37,14 @@ dan kalau ditampilkan oleh sebuah ponsel panel di sebelah kanan tidak akan terli
 
 Hal ini karena desain kita tidak memperhatikan apa yang dinamakan **Responsive Design**.
 
+Secara keseluruhan kita harus mengubah strategi layout kalau ingin mendukung pemakaian aplikasi ini dengan sebuah ponsel, dan kelihatannya
+yang paling sederhana adalah menempatkan WebView dalam sebuah LinearLayout yang berorientasi VERTICAL, bersama dengan semua **View**
+pendukungnya, termasuk, misalnya saja, **Back atau Home Button**, dengan demikian seandainya aplikasi kita sedang berada di dalam perangkat yang memiliki layar 
+relatif kecil, tidak ada komponen yang tersembunyi.     
+
+Tambahan lagi, sebaiknya kita juga meniadakan nilai-nilai absolut, seperti 500, yang saya gunakan di sini untuk menyederhanakan ilustrasi.
+
+
+
 
 
