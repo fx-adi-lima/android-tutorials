@@ -45,7 +45,13 @@ Untuk mengetahui lebih jelas mengenai ini, sebaiknya membaca sendiri [situs resm
 
 Sebailknya, tanpa harus menggunakan fragment, kita bisa mendukung berbagai perangkat, termasuk perangkat ponsel yang relatif kecil,
 dan oleh pengguna cenderung ditempatkan dalam _portrait_ view hanya dengan mengandalkan sebuah WebView, dengan konten yang dibuat
-untuk mendukung _responsive design_, seperti bisa dilihat dalam contoh berikut.
+untuk mendukung _responsive design_, seperti bisa dilihat dalam contoh berikut, katakanlah kita memiliki sebuah blog seperti 
+contoh yang diambil dari template W3CSS berikut:
+![Sample Blog](sample-blog.jpd)
+
+Dan kita menampilkan blog tersebut di dalam aplikasi android kita di atas, tanpa modifikasi apapun, kecuali menambahkan isi
+template tersebut sebagai asset, dan memanggil halaman terkait, maka penampilannya akan seperti:
+
 
 
 
