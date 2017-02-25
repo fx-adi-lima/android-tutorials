@@ -43,6 +43,9 @@ pada penggunaan komponen-komponen dasar android.
 
 Untuk mengetahui lebih jelas mengenai ini, sebaiknya membaca sendiri [situs resmi android!](https://developer.android.com/training/basics/fragments/index.html)
 
+Sebailknya, tanpa harus menggunakan fragment, kita bisa mendukung berbagai perangkat, termasuk perangkat ponsel yang relatif kecil,
+dan oleh pengguna cenderung ditempatkan dalam _portrait_ view hanya dengan mengandalkan sebuah WebView, dengan konten yang dibuat
+untuk mendukung _responsive design_, seperti bisa dilihat dalam contoh berikut.
 
 
 
