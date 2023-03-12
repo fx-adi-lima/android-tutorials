@@ -1,13 +1,16 @@
-#!/system/bin/sh -e
+#!/bin/sh -e
 #
 # create R.java
+ANDROID_HOME=$HOME/android
+
 aapt package -v -f \
              -M ./AndroidManifest.xml \
-             -I $PREFIX/share/aapt/android.jar \
+             -I $ANDROID_HOME/share/commons/android-23.jar \
              -J src \
              -S res \
              -m
 
+mkdir -pv obj
 
 # compile the java sources
 # THIS EXAMPLE USING ecj, and we should find out which version
@@ -25,28 +28,45 @@ aapt package -v -f \
 #
 #dx --dex --verbose --output=./bin/classes.dex ./obj
 
-jack --classpath $PREFIX/share/java/android.jar \
-	--output-dex bin/ \
-	src/ gen/
+#jack --classpath $PREFIX/share/java/android.jar \
+#	--output-dex bin/ \
+#	src/ gen/
 
 # make the apk
+
+SOURCES=$(find src -name *.java)
+
+javac --release 6 -d obj/ -sourcepath src/ \
+-cp $ANDROID_HOME/share/commons/android-23.jar \
+${SOURCES}
+
+dx --dex --output=classes.dex obj/
 
 aapt package -v -f \
              -M ./AndroidManifest.xml \
              -S ./res \
-             -F bin/step1.apk
+             -I $ANDROID_HOME/share/commons/android-23.jar \
+             -F step1.apk
 
 
 # add the classes.dex to the apk
-cd bin
 aapt add -f step1.apk classes.dex
 
-echo "sign the apk"
-apksigner -p eveline ../step1-debug.key step1.apk ../step1.apk
+if ! [ -f personal.keystore ]; then
+    keytool -genkey -v \
+	-keystore personal.keystore \
+	-alias personal \
+	-keyalg RSA \
+	-keysize 2048 \
+	-validity 10000
+fi
 
-cd ..
-echo "and make it accessible to the outside world"
-chmod 777 step1.apk
+jarsigner -sigalg SHA1withRSA \
+    -digestalg SHA1 \
+    -keystore personal.keystore \
+    step1.apk personal
+
+ls -lh step1.apk
 
 echo "Our Step1 app is ready to go"
 echo
